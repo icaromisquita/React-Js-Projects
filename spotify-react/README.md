@@ -15,37 +15,8 @@ This project is a simplified Spotify clone built using ReactJS. It's a learning 
 * **CSS:** For styling the application.
 * **Axios/Fetch (Optional):** For making API requests.
 
-## Installation
-
-1.  **Clone the repository:**
-
-    ```bash
-    git clone [repository URL]
-    ```
-
-2.  **Navigate to the project directory:**
-
-    ```bash
-    cd spotify-react
-    ```
-
-3.  **Install dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-4.  **Start the development server:**
-
-    ```bash
-    npm start
-    ```
-
-5.  **Open your browser:**
-
-    Open your web browser and navigate to `http://localhost:3000`.
-
 ## Project Structure
+```
 spotify-react/
 ├── node_modules/
 ├── public/
@@ -74,7 +45,7 @@ spotify-react/
 ├── package-lock.json
 ├── package.json
 └── README.md     
-
+```
 
 ## Learning Objectives
 
