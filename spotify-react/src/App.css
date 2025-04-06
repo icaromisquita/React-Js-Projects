@@ -1,0 +1,152 @@
+/*RESET*/
+
+/* Normalize.css (Partial - for cross-browser consistency) */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+/* Minimal Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*RESET*/
+
+:root {
+  /* Colors */
+  --text-base-dark: #000;
+  --text-base-light: #fff;
+  --text-sub: #a7a7a7;
+
+  --bg-icon: #131313;
+  --bg-top-bar: #61616142;
+  --grid-gap: 24px;
+  --column-count: 5;
+
+  /* Colors Cards */
+  --card1: rgb(0, 100, 80);
+  --card2: rgb(132, 0, 231);
+  --card3: rgb(30, 50, 100);
+  --card4: rgb(140, 25, 50);
+  --card5: rgb(232, 17, 91);
+  --card6: rgb(83, 122, 161);
+  --card7: rgb(142, 102, 172);
+  --card8: rgb(20, 138, 8);
+  --card9: rgb(30, 50, 100);
+  --card10: rgb(233, 20, 41);
+  --card11: rgb(80, 55, 80);
+  --card12: rgb(216, 64, 0);
+  --card13: rgb(186, 93, 7);
+  --card14: rgb(0, 30, 80);
+  --card15: rgb(60, 30, 80);
+
+  /* Fonts */
+  --font-dm-sans: "DM Sans", sans-serif;
+}
+
+
+body{
+  background-color: #000
+}
+
+
+/*Main*/
+.main-container {
+  max-width: 90rem;
+  height: 100rem;
+  margin-left: 20rem; 
+  margin-right: 3.5rem; 
+}
+
+
+/* Media query for screens up to 1015px wide */
+@media screen and (max-width: 1015px) {
+  .header__search {
+    display: none; 
+    width: auto; 
+  }
+
+  .header__login .subscribe {
+    font-size: 12px; 
+    padding: 10px; 
+    margin-right: 5px; 
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr; 
+  }
+}
+
+/* Media query for screens between 1016px and 1140px wide */
+@media screen and (min-width: 1016px) and (max-width: 1140px) {
+  .header__search {
+    display: none; 
+    width: auto; 
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr 1fr; 
+  }
+}
+
+/* Media query for screens up to 375px wide (e.g., small phones) */
+@media screen and (max-width: 375px) {
+  .playlist {
+    display: none;
+  }
+
+  .playlist-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 342px;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr;
+  }
+
+  .offer__scroll-container {
+    overflow-y: visible;
+  }
+}
+
