@@ -11,12 +11,13 @@ This project is a RESTful backend API developed with **Node.js**, using **Expres
 * **JSON Web Tokens (JWT)**: Standard for creating access tokens that ensure API route security.
 * **Bcrypt.js**: Library for hashing passwords, ensuring user credentials are stored securely.
 * **Dotenv**: For securely managing environment variables.
-* **Zod (Optional, but recommended)**: Schema validation library. (Add if you used it)
+
 
 ## ✨ Key Features
 
 * **User Authentication**: Registration, Login, and JWT generation for secure access.
 * **JWT-Based Authorization**: Protection of sensitive routes, allowing access only to authenticated and authorized users.
+* **Authentication Middleware**: Implemented a middleware to verify JWTs, ensuring that only logged-in users can access protected routes and perform actions. This enhances secure navigation and data access.
 * **[Main Entity Name, e.g., Products, Users, Tasks] Management**:
     * Creation of new [Entity].
     * Reading/Listing of [Entity] (with filtering/pagination options, if any).
