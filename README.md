@@ -26,7 +26,7 @@ This project documents my progress in learning ReactJS. It showcases my understa
 * State management (useState)
 * Event handling
 * Props and component communication
-* API integration (if api is used)
+* API integration 
 * Basic CSS styling.
 
 ## Contributing
